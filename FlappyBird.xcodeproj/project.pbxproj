@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC168E2924CFE32900046790 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC168E2824CFE32900046790 /* GameScene.swift */; };
+		AC4F9DE12503AB800023687A /* birdsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC4F9DE02503AB800023687A /* birdsound.mp3 */; };
 		ACCB1CB024CFDC9A0063875A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB1CAF24CFDC9A0063875A /* AppDelegate.swift */; };
 		ACCB1CB224CFDC9A0063875A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB1CB124CFDC9A0063875A /* SceneDelegate.swift */; };
 		ACCB1CB424CFDC9A0063875A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB1CB324CFDC9A0063875A /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		AC168E2824CFE32900046790 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AC4F9DE02503AB800023687A /* birdsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdsound.mp3; sourceTree = "<group>"; };
 		ACCB1CAC24CFDC9A0063875A /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCB1CAF24CFDC9A0063875A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCB1CB124CFDC9A0063875A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			children = (
 				ACCB1CAE24CFDC9A0063875A /* FlappyBird */,
 				ACCB1CAD24CFDC9A0063875A /* Products */,
+				AC4F9DE02503AB800023687A /* birdsound.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCB1CBC24CFDC9C0063875A /* LaunchScreen.storyboard in Resources */,
+				AC4F9DE12503AB800023687A /* birdsound.mp3 in Resources */,
 				ACCB1CB924CFDC9B0063875A /* Assets.xcassets in Resources */,
 				ACCB1CB724CFDC9A0063875A /* Main.storyboard in Resources */,
 			);
