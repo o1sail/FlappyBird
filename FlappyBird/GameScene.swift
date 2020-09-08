@@ -402,6 +402,5 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.addChild(itemScoreLabelNode)
         //
     }
-
 }
 
