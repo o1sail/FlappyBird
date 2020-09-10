@@ -63,6 +63,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         setupItem() //
         
         setupScoreLabel()
+        
+        //効果音準備
+        birdSound = try! AVAudioPlayer(contentsOf: birdSoundPath)
+        birdSound.prepareToPlay()
     }
     
     func setupGround() {
@@ -327,14 +331,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 contact.bodyB.node?.removeFromParent()
             }
             //効果音
-            do {
-                birdSound = try AVAudioPlayer(contentsOf: birdSoundPath)
-                birdSound.play()
-            } catch {
-                print("SoundError")
-            }
-            
-            
+            birdSound.play()
             
         } else {
             // 壁か地面と衝突した
